@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #10271d;
+  --color-primary-container: #263d32;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #8ea899;
+  --color-primary-fixed: #cee9d9;
+  --color-primary-fixed-dim: #b2cdbd;
+  --color-on-primary-fixed: #082016;
+
+  --color-secondary: #8e4d32;
+  --color-secondary-container: #feaa89;
+  --color-on-secondary: #ffffff;
+  --color-secondary-fixed: #ffdbce;
+  --color-secondary-fixed-dim: #ffb599;
+  --color-on-secondary-fixed: #370e00;
+  --color-on-secondary-container: #783c23;
+
+  --color-tertiary: #302000;
+  --color-tertiary-container: #4a3407;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-fixed: #ffdea9;
+  --color-tertiary-fixed-dim: #e5c188;
+  --color-on-tertiary-fixed: #271900;
+  --color-on-tertiary-container: #bd9d66;
+
+  --color-surface: #fbf9f4;
+  --color-surface-dim: #dbdad5;
+  --color-surface-bright: #fbf9f4;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f5f4ef;
+  --color-surface-container: #efeee9;
+  --color-surface-container-high: #e9e8e3;
+  --color-surface-container-highest: #e4e2de;
+
+  --color-background: #fbf9f4;
+  --color-on-background: #1b1c19;
+  --color-on-surface: #1b1c19;
+  --color-on-surface-variant: #424844;
+  --color-outline: #727974;
+  --color-outline-variant: #c2c8c3;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+
+  --font-playfair: 'Playfair Display', Georgia, serif;
+  --font-jakarta: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --spacing-margin: 3rem;
+  --spacing-margin-mobile: 1.25rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-mobile: 1rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+}
+
+@layer utilities {
+  .font-display-lg {
+    font-family: var(--font-playfair);
+    font-size: 56px;
+    line-height: 68px;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+  }
+  .font-headline-xl {
+    font-family: var(--font-playfair);
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.015em;
+    font-weight: 400;
+  }
+  .font-headline-lg {
+    font-family: var(--font-playfair);
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+  }
+  .font-headline-md {
+    font-family: var(--font-playfair);
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    font-weight: 500;
+  }
+  .font-headline-sm {
+    font-family: var(--font-playfair);
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    font-weight: 600;
+  }
+  .font-body-xl {
+    font-family: var(--font-jakarta);
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.005em;
+    font-weight: 400;
+  }
+  .font-body-md {
+    font-family: var(--font-jakarta);
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    font-weight: 400;
+  }
+  .font-body-sm {
+    font-family: var(--font-jakarta);
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+  }
+  .font-label-lg {
+    font-family: var(--font-jakarta);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  .font-label-md {
+    font-family: var(--font-jakarta);
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+  }
+  .font-label-sm {
+    font-family: var(--font-jakarta);
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+  }
+}
+
+/* Material Symbols alignment */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+

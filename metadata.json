@@ -1,0 +1,7 @@
+{
+  "name": "Artisans Hub",
+  "description": "Discover authentic handmade creations directly from master artisans worldwide with fair-trade transparency, provenance lineage, and real-time synchronization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
